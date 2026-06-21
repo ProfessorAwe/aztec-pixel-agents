@@ -1,7 +1,7 @@
 {
-  "name": "pixel-agents",
-  "displayName": "Pixel Agents",
-  "description": "Pixel art office where your Claude Code agents come to life as animated characters",
+  "name": "aztec-pixel-agents",
+  "displayName": "Aztec Pixel Agents",
+  "description": "Aztec-themed pixel art office where your Claude Code agents come to life as animated warriors and artisans",
   "version": "1.3.0",
   "publisher": "pablodelucca",
   "repository": {
@@ -27,18 +27,18 @@
     "commands": [
       {
         "command": "pixel-agents.showPanel",
-        "title": "Pixel Agents: Show Panel"
+        "title": "Aztec Pixel Agents: Show Panel"
       },
       {
         "command": "pixel-agents.exportDefaultLayout",
-        "title": "Pixel Agents: Export Layout as Default"
+        "title": "Aztec Pixel Agents: Export Layout as Default"
       }
     ],
     "viewsContainers": {
       "panel": [
         {
           "id": "pixel-agents-panel",
-          "title": "Pixel Agents",
+          "title": "Aztec Agents",
           "icon": "$(window)"
         }
       ]
@@ -109,7 +109,7 @@
     "eslint-plugin-simple-import-sort": "^13.0.0",
     "husky": "^9.1.7",
     "knip": "^6.3.0",
-    "lint-staged": "^16.3.2",
+    "lint-staged": "^17.0.8",
     "npm-run-all": "^4.1.5",
     "pngjs": "^7.0.0",
     "prettier": "^3.8.1",

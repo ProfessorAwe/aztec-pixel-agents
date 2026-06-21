@@ -9,39 +9,39 @@
 }
 
 :root {
-  /* Core palette */
-  --color-bg: #1e1e2e;
-  --color-bg-dark: #181828;
-  --color-bg-thumb: #2a2a3a;
-  --color-border: #4a4a6a;
-  --color-accent: #6030ff;
-  --color-accent-bright: #746fff;
+  /* Core palette — Aztec theme */
+  --color-bg: #1a2e22;
+  --color-bg-dark: #0d2e1a;
+  --color-bg-thumb: #1b4d2e;
+  --color-border: #2e8b57;
+  --color-accent: #d4a017;
+  --color-accent-bright: #ffc83a;
 
   /* Text */
   --color-text: rgba(255, 255, 255, 0.9);
   --color-text-muted: rgba(255, 255, 255, 0.5);
 
   /* Buttons */
-  --color-btn-bg: rgb(53, 52, 69);
-  --color-btn-hover: rgb(78, 75, 104);
-  --color-active-bg: rgb(44, 43, 109);
+  --color-btn-bg: rgb(27, 77, 46);
+  --color-btn-hover: rgb(46, 139, 87);
+  --color-active-bg: rgb(13, 79, 82);
 
   /* Semantic */
-  --color-reset-text: #ecc;
-  --color-danger: #d14249;
-  --color-warning: #ff8d14;
+  --color-reset-text: #f5b89c;
+  --color-danger: #c75b2a;
+  --color-warning: #d4a017;
 
   /* Status */
-  --color-status-permission: #cca700;
-  --color-status-active: #3794ff;
-  --color-status-success: #89d185;
+  --color-status-permission: #d4a017;
+  --color-status-active: #20a6a6;
+  --color-status-success: #5bbf6b;
   --color-status-error: var(--color-danger);
 
   /* Shadow */
-  --shadow-pixel: 2px 2px 0px #0a0a14;
+  --shadow-pixel: 2px 2px 0px #0d2e1a;
 
   /* Non-utility values */
-  --vignette: radial-gradient(ellipse at center, transparent 50%, rgba(0, 0, 0, 0.6) 100%);
+  --vignette: radial-gradient(ellipse at center, transparent 50%, rgba(13, 46, 26, 0.6) 100%);
   --btn-disabled-opacity: 0.35;
 }
 

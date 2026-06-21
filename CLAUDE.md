@@ -1,6 +1,25 @@
-# Pixel Agents — Compressed Reference
+# Aztec Pixel Agents — Compressed Reference
 
-VS Code extension with embedded React webview: pixel art office where AI agents (Claude Code terminals) are animated characters.
+Aztec-themed fork of pixel-agents-hq/pixel-agents. VS Code extension with embedded React webview: pixel art Aztec temple office where AI agents (Claude Code terminals) are animated characters.
+
+## Aztec Fork Changes
+
+**Color palette** (jade/gold/turquoise/obsidian/terracotta):
+
+- CSS vars in `webview-ui/src/index.css` — all UI chrome colors
+- Canvas colors in `webview-ui/src/constants.ts` — matrix effect, fuel gauge, team labels
+- Layout tile colors in `webview-ui/public/assets/default-layout-1.json` — HSB values for floor tinting
+
+**Extension IDs** renamed from `pixel-agents.*` to `aztec-agents.*`:
+
+- `package.json` — commands, views, configuration keys
+- `adapters/vscode/constants.ts` — all TypeScript constants
+
+**Data isolation**: Layout persists to `~/.aztec-agents/` (not `~/.pixel-agents/`)
+
+**Pending**: Custom Aztec pixel art sprites (characters, furniture, floors, walls) — see `PIXEL_ARTIST_BRIEF.md`
+
+**Upstream remote**: `upstream` points to pixel-agents-hq/pixel-agents for pulling updates
 
 ## Architecture
 
